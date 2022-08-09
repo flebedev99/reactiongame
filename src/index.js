@@ -39,6 +39,7 @@ document.body.onkeyup = function () {
     }
     time = 0;
     turn = 1;
+    yellowPressed = false;
   }
   if (turn === 2) {
     background.backgroundColor = "yellow";
