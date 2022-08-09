@@ -12,6 +12,7 @@ function red() {
     updateTime();
     return;
   }
+  yellowPressed = false;
 }
 function updateTime() {
   time += 0.01;
@@ -39,7 +40,6 @@ document.body.onkeyup = function () {
     }
     time = 0;
     turn = 1;
-    yellowPressed = false;
   }
   if (turn === 2) {
     background.backgroundColor = "yellow";
